@@ -1,0 +1,29 @@
+body {
+    font-family: "roboto", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.intro {
+    background-color: #1f2937;
+    padding: 4px 80px;
+    margin: 0;
+}
+
+.logo {
+    font-size: 18px;
+    color: white;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 8px;
+}
