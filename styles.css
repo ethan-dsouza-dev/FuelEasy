@@ -7,9 +7,6 @@ body {
 .intro {
     background-color: #1f2937;
     padding: 4px 80px;
-    margin: 0;
-    border-color: wheat;
-    border: solid;
 }
 
 .logo {
@@ -77,4 +74,37 @@ img {
     border: none;
     font-weight: bold;
     padding: 8px 16px;
+}
+
+.subheading {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.feature-panel img {
+    width: 150px;
+    height: 150px;
+    border: solid;
+    border-width: 3px;
+    border-radius: 8px;
+    border-color: #3882f6;
+}
+
+.item-reel {
+    display: flex;
+    justify-content: center;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    margin: 0 16px;
+    width: 150px;
+}
+
+.info-item p {
+    text-align: center;
+    color: #686868;
 }
