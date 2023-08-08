@@ -158,3 +158,12 @@ button {
     border-color: #f9faf8;
     border-radius: 8px;
 }
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    color: #f9faf8;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
