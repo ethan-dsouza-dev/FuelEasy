@@ -8,11 +8,13 @@ body {
     background-color: #1f2937;
     padding: 4px 80px;
     margin: 0;
+    border-color: wheat;
+    border: solid;
 }
 
 .logo {
-    font-size: 18px;
-    color: white;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .header {
@@ -26,4 +28,53 @@ a {
     text-decoration: none;
     color: white;
     margin: 8px;
+}
+
+.intro-card {
+    color: white;
+    display: flex;
+    padding-bottom: 60px;
+    padding-top: 60px;
+
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-intro {
+    flex-shrink: 0;
+    width: 400px;
+}
+
+.intro-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 4px;
+    
+}
+
+.intro-desc,
+.links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+img {
+    width: 500px;
+    height: 200px;
+    align-self: center;
+    margin-left: 8px;
+    border-radius: 15px;
+}
+
+.intro-card button {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    padding: 8px 16px;
 }
