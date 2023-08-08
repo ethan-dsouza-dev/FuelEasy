@@ -52,10 +52,11 @@ a {
     
 }
 
-.intro-desc,
+.description,
 .links {
     font-size: 18px;
     color: #e5e7eb;
+    margin-top: 0;
 }
 
 
@@ -67,8 +68,8 @@ img {
     border-radius: 15px;
 }
 
-.intro-card button {
-    color: white;
+button {
+    color: #f9faf8;
     background-color: #3882f6;
     border-radius: 8px;
     border: none;
@@ -81,6 +82,10 @@ img {
     font-weight: 900;
     color: #1f2937;
     text-align: center;
+}
+
+.feature-panel {
+    padding-bottom: 48px;
 }
 
 .feature-panel img {
@@ -107,4 +112,49 @@ img {
 .info-item p {
     text-align: center;
     color: #686868;
+}
+
+.quote-panel {
+    background-color: #e5e7eb;
+    padding: 40px 80px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    font-size: 18px;
+    font-weight: bold;
+    align-self: flex-end;
+    margin: 16px;
+}
+
+.try-now-banner {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    padding: 8px 56px;
+    margin: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-bottom: 4px;
+}
+
+.try-now-banner .description {
+    font-size: 16px;
+}
+
+.try-button-end {
+    border: solid;
+    border-color: #f9faf8;
+    border-radius: 8px;
 }
