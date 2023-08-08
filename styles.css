@@ -32,11 +32,9 @@ a {
     display: flex;
     padding-bottom: 60px;
     padding-top: 60px;
-
     flex: 1;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
 }
 
 .left-intro {
@@ -59,10 +57,11 @@ a {
     margin-top: 0;
 }
 
-
 img {
-    width: 500px;
-    height: 200px;
+    height: auto; 
+    width: auto; 
+    max-width: 400px; 
+    max-height: 400px;
     align-self: center;
     margin-left: 8px;
     border-radius: 15px;
@@ -116,7 +115,7 @@ button {
 
 .quote-panel {
     background-color: #e5e7eb;
-    padding: 40px 80px;
+    padding: 40px 160px;
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
