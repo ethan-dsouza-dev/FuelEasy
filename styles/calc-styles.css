@@ -2,6 +2,7 @@ body {
     font-family: "roboto", sans-serif;
     box-sizing: border-box;
     margin: 0;
+    background-color: #e5e7eb;
 }
 
 .header {
@@ -39,6 +40,54 @@ a {
 }
 
 .calc-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px auto;
+    max-width: fit-content;
+    background-color: #1f2937;
     border: solid;
     border-radius: 8px;
+    border-color: #f9faf8;
+    width: 900px;
+    padding: 8px 80px;
+}
+
+.calc-logo {
+    width: 50%;
+    border: none;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+.input-cluster {
+    margin-top: 16px;
+    display: flex;
+}
+
+input {
+    margin-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+#distance {
+    margin-right: 0px;
+}
+
+
+button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    margin-top: 50px;
+    margin-bottom: 16px;
+    width: fit-content;
 }
