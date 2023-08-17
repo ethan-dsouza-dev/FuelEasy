@@ -1,0 +1,44 @@
+body {
+    font-family: "roboto", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 80px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 8px;
+}
+
+.links {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 0;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    color: #f9faf8;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.calc-container {
+    border: solid;
+    border-radius: 8px;
+}
