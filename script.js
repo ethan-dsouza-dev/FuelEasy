@@ -1,12 +1,35 @@
+// EFFECTS: creates a list of all models of selected make and adds 
+//          them as option under the "model" drop-down box.
 function populateModels() {
     const make = document.getElementById('make');
     const model = document.getElementById('model');
     let option = make.options[make.selectedIndex].text;
 
     if (option === 'Toyota') {
-        const newModel = document.createElement('option');
-        newModel.textContent = "Corolla";
-        model.appendChild(newModel);
+        const toyota_models = ["4Runner",
+                                "86",
+                                "Alphard",
+                                "Aurion",
+                                "Auris",
+                                "Avalon",
+                                "Avanza",
+                                "Avensis",
+                                "bB",
+                                "C-HR",
+                                "Caldina",
+                                "Camry",
+                                "Celica",
+                                "Century",
+                                "Coaster",
+                                "Corolla",
+                                "Corolla Cross"];
+                                
+        toyota_models.forEach((toyotaModel) => {
+            const newModel = document.createElement('option');
+            newModel.textContent = toyotaModel;
+            model.appendChild(newModel);
+        });
+        
     }
 }
 

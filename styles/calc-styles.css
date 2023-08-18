@@ -73,6 +73,11 @@ input {
     margin-top: 50px;
 }
 
+.result {
+    color: #f9faf8;
+    margin-top: 40px;
+}
+
 button {
     color: #f9faf8;
     background-color: #3882f6;
