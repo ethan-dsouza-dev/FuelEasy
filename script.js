@@ -5,9 +5,9 @@ const make = document.getElementById('make');
 function populateModels() {
     const model = document.getElementById('model');
     let option = make.options[make.selectedIndex].text;
-
+    let dropdownModels = [];
     if (option === 'Toyota') {
-        const toyota_models = ["4Runner",
+        dropdownModels = ["4Runner",
                                 "86",
                                 "Alphard",
                                 "Aurion",
@@ -24,14 +24,15 @@ function populateModels() {
                                 "Coaster",
                                 "Corolla",
                                 "Corolla Cross"];
-                                
-        toyota_models.forEach((toyotaModel) => {
-            const newModel = document.createElement('option');
-            newModel.textContent = toyotaModel;
-            model.appendChild(newModel);
-        });
         
     }
+
+    model.innerHTML = '<option>Select Model</option>'
+    dropdownModels.forEach((dropdownModel) => {
+        const newModel = document.createElement('option');
+        newModel.textContent = dropdownModel;
+        model.appendChild(newModel);
+    });
 }
 
 function getFuelConsumption() {
