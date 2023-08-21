@@ -1,7 +1,8 @@
+const make = document.getElementById('make');
+
 // EFFECTS: creates a list of all models of selected make and adds 
 //          them as option under the "model" drop-down box.
 function populateModels() {
-    const make = document.getElementById('make');
     const model = document.getElementById('model');
     let option = make.options[make.selectedIndex].text;
 
@@ -45,7 +46,23 @@ function getFuelPrice() {
     return 2.62;
 }
 
-function calculateCost(kmpl, distance, fuelPrice) {
+function calculateCost() {
+    let distance = getDistance();
+    let kmpl = getFuelConsumption();
+    let fuelPrice = getFuelPrice();
     return (distance / kmpl) * fuelPrice;
 }
 
+// EFFECTS: updates the text in the calculator to reflect the result
+function updateResult() {
+    const text = document.querySelector('.result');
+    let result = calculateCost();
+    result = Math.round(result * 100) / 100;
+    console.log(result);
+    text.textContent = `Your estimated cost: \$${result}`;
+}
+
+make.addEventListener('change', populateModels);
+
+const btn = document.getElementById('calculate-btn');
+btn.addEventListener('click', updateResult);
