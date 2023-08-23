@@ -4,10 +4,6 @@ body {
     margin: 0;
 }
 
-.intro {
-    background-color: #1f2937;
-}
-
 .logo {
     font-size: 24px;
     color: #f9faf8;
@@ -35,6 +31,7 @@ a {
     flex: 1;
     display: flex;
     justify-content: space-evenly;
+    background-color: #1f2937;
 }
 
 .left-intro {
