@@ -27,11 +27,12 @@ a {
     color: white;
     display: flex;
     padding-bottom: 60px;
-    padding-top: 60px;
     flex: 1;
     display: flex;
     justify-content: space-evenly;
     background-color: #1f2937;
+    font-size: 25px;
+    font-weight: 900;
 }
 
 .footer {
@@ -46,10 +47,10 @@ a {
 .description-panel p {
     padding: 40px 160px;
     margin: 0;
-
 }
+
 .blue-p {
-    background-color: #1f2937ec;
+    background-color: #245393ec;
     font-size: 30px;
     font-style: italic;
     font-weight: lighter;
@@ -58,17 +59,51 @@ a {
     flex-direction: column;
 }
 
+.p-block {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex: 1;
+}
+
 .white-p {
     background-color: #f9faf8;
     font-size: 22px;
     padding: 40px 160px;
     color: #1f2937;
-    
 }
+
+#w {
+    background-color: #f9f9f9;
+}
+
 
 .grey-p {
     background-color: #e5e5e5;
     font-size: 22px;
     padding: 40px 160px;
     color: #1f2937;
+}
+
+#g {
+    background-color: #e5e5e5;
+}
+
+img {
+    height: auto; 
+    width: auto; 
+    max-width: 400px; 
+    max-height: 400px;
+    align-self: center;
+    margin-left: 8px;
+    border-radius: 15px;
+    margin: 60px 20px;
+}
+
+#car-sharing {
+    margin-right: 10%;
+}
+
+#driving-together {
+    margin-left: 10%;
 }

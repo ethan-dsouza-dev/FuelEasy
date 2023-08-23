@@ -29,7 +29,6 @@ a {
     padding-bottom: 60px;
     padding-top: 60px;
     flex: 1;
-    display: flex;
     justify-content: space-evenly;
     background-color: #1f2937;
 }
