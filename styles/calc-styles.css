@@ -2,7 +2,7 @@ body {
     font-family: "roboto", sans-serif;
     box-sizing: border-box;
     margin: 0;
-    background-color: #e5e7eb;                                                                                                                                                                                                   
+    background-color: #245293;                                                                                                                                                                                                   
 }
 
 .header {
@@ -69,7 +69,7 @@ input {
     width: 200px;
     border: solid;
     border-radius: 8px;
-    border-color: #3882f6;
+    border-color: #245293;
     margin-top: 50px;
 }
 
