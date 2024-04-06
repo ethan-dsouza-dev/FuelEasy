@@ -25,6 +25,44 @@ function populateModels() {
                                 "Corolla",
                                 "Corolla Cross"];
         
+    } else if (option == 'Ford') {
+        dropdownModels = ["Ford F-Series", 
+        "Ford Escort",
+        "Ford Model T",
+        "Ford Fiesta", 
+        "Ford Focus", 
+        "Ford Mustang", 
+        "Ford Transit", 
+        "Ford Taurus", 
+        "Ford Explorer", 
+        "Ford LTD", 
+        "Ford EcoSport", 
+        "Ford Expedition", 
+        "Ford Edge", 
+        "Ford Ranger", 
+        "Ford Transit Connect", 
+        "Ford Maverick", 
+        "Ford Fusion", 
+        "Ford Mustang Mach-E", 
+        "Ford Bronco Sport", 
+        "Ford GT"];
+    } else if (option == 'Chevrolet') {
+        dropdownModels = ["Blazer", 
+        "Camaro", 
+        "Cavalier", 
+        "Celebrity", 
+        "Colorado", 
+        "Equinox", 
+        "Malibu", 
+        "Silverado 1500", 
+        "Spark", 
+        "Suburban", 
+        "Tahoe", 
+        "Trailblazer", 
+        "Traverse", 
+        "Trax"];
+    } else if (option == 'Volvo') {
+        dropdownModels = ["C40", "S60", "S90", "V60", "V60 CC", "V90", "V90 CC", "XC40", "XC60", "XC60 II", "XC90"];
     }
 
     model.innerHTML = '<option>Select Model</option>'
